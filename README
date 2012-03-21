@@ -1,0 +1,10 @@
+Copies all files from a given directory into another directory recursively,
+and deletes the original files.
+
+The use case of this is to be able to put files into your dropbox folder on one computer,
+and then run this script automatically/periodically on another computer to get a local backup
+of the files without your dropbox quota running out.
+
+Note that putting files into the dropbox folder is still a manual task. In the future I might
+write a script that can synchronize a folder automatically, only copying new files to the
+dropbox-folder-to-sync.
